@@ -9,7 +9,7 @@ const RecentProjects = (props: Props) => {
   return (
     <div className="py-20" id="project">
       <h1 className="heading">
-        A smal selection of <span className="text-purple">Recent projects</span>
+        A small selection of <span className="text-purple">Recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-12 gap-y-8 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
